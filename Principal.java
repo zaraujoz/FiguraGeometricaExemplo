@@ -20,10 +20,10 @@ public class Principal {
         triangulo.setBase(leia.nextDouble());
         System.out.println("Digite a Altura"); 
         triangulo.setAltura(leia.nextDouble());
-       
         System.out.println(triangulo.getFigura());
-        
+        System.out.println("A área é: ");
         System.out.println(triangulo.getArea());
+        System.out.println("A Soma dos lados é: "); 
         System.out.println(triangulo.getPerimetro());
     }
 
